@@ -1,0 +1,6 @@
+framework module IngresseSDK {
+  umbrella header "IngresseSDK.h"
+
+  export *
+  module * { export * }
+}

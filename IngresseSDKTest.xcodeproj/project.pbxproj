@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5DEC8A1A32080100C7B1DE /* IngresseSDK.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B5DEC881A32073A00C7B1DE /* IngresseSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BF56EE719D1B3C7008B8F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF56EE619D1B3C7008B8F68 /* AppDelegate.swift */; };
+		5BF56EEC19D1B3C7008B8F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF56EEA19D1B3C7008B8F68 /* Main.storyboard */; };
+		5BF56EEE19D1B3C7008B8F68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF56EED19D1B3C7008B8F68 /* Images.xcassets */; };
+		5BF56EF119D1B3C7008B8F68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF56EEF19D1B3C7008B8F68 /* LaunchScreen.xib */; };
+		5BF56EFD19D1B3C7008B8F68 /* IngresseSDKTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF56EFC19D1B3C7008B8F68 /* IngresseSDKTestTests.swift */; };
+		5BF56F0719D1B4D4008B8F68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF56F0619D1B4D4008B8F68 /* LoginViewController.swift */; };
+		5BF56F1C19D1BD08008B8F68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BF56F1B19D1BD08008B8F68 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF56EF719D1B3C7008B8F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF56ED919D1B3C7008B8F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF56EE019D1B3C7008B8F68;
+			remoteInfo = IngresseSDKTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B45372419D1DEF100BD80FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5DEC891A3207E500C7B1DE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B5DEC8A1A32080100C7B1DE /* IngresseSDK.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B5DEC881A32073A00C7B1DE /* IngresseSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IngresseSDK.framework; sourceTree = "<group>"; };
+		5BF56EE119D1B3C7008B8F68 /* IngresseSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IngresseSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF56EE619D1B3C7008B8F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF56EEB19D1B3C7008B8F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF56EED19D1B3C7008B8F68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BF56EF019D1B3C7008B8F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5BF56EF619D1B3C7008B8F68 /* IngresseSDKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IngresseSDKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF56EFB19D1B3C7008B8F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = IngresseSDKTestTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		5BF56EFC19D1B3C7008B8F68 /* IngresseSDKTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresseSDKTestTests.swift; sourceTree = "<group>"; };
+		5BF56F0619D1B4D4008B8F68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/LoginViewController.swift; sourceTree = "<group>"; };
+		5BF56F1B19D1BD08008B8F68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF56F1F19D1C056008B8F68 /* IngresseSDKTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IngresseSDKTest-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF56EDE19D1B3C7008B8F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF56EF319D1B3C7008B8F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B45373119D1FD9700BD80FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF56EFB19D1B3C7008B8F68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B5DEC871A32073A00C7B1DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5DEC881A32073A00C7B1DE /* IngresseSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BF56ED819D1B3C7008B8F68 = {
+			isa = PBXGroup;
+			children = (
+				5B5DEC871A32073A00C7B1DE /* Frameworks */,
+				5BF56EE319D1B3C7008B8F68 /* IngresseSDKTest */,
+				5BF56EF919D1B3C7008B8F68 /* IngresseSDKTestTests */,
+				5BF56EE219D1B3C7008B8F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF56EE219D1B3C7008B8F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF56EE119D1B3C7008B8F68 /* IngresseSDKTest.app */,
+				5BF56EF619D1B3C7008B8F68 /* IngresseSDKTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF56EE319D1B3C7008B8F68 /* IngresseSDKTest */ = {
+			isa = PBXGroup;
+			children = (
+				5BF56F1A19D1BCC7008B8F68 /* Supporting Files */,
+				5BF56EE619D1B3C7008B8F68 /* AppDelegate.swift */,
+				5BF56EEA19D1B3C7008B8F68 /* Main.storyboard */,
+				5BF56EED19D1B3C7008B8F68 /* Images.xcassets */,
+				5BF56EEF19D1B3C7008B8F68 /* LaunchScreen.xib */,
+				5BF56F0619D1B4D4008B8F68 /* LoginViewController.swift */,
+				5BF56F1F19D1C056008B8F68 /* IngresseSDKTest-Bridging-Header.h */,
+			);
+			path = IngresseSDKTest;
+			sourceTree = "<group>";
+		};
+		5BF56EF919D1B3C7008B8F68 /* IngresseSDKTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B45373119D1FD9700BD80FB /* Supporting Files */,
+				5BF56EFC19D1B3C7008B8F68 /* IngresseSDKTestTests.swift */,
+			);
+			path = IngresseSDKTestTests;
+			sourceTree = "<group>";
+		};
+		5BF56F1A19D1BCC7008B8F68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BF56F1B19D1BD08008B8F68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF56EE019D1B3C7008B8F68 /* IngresseSDKTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF56F0019D1B3C7008B8F68 /* Build configuration list for PBXNativeTarget "IngresseSDKTest" */;
+			buildPhases = (
+				5BF56EDD19D1B3C7008B8F68 /* Sources */,
+				5BF56EDE19D1B3C7008B8F68 /* Frameworks */,
+				5BF56EDF19D1B3C7008B8F68 /* Resources */,
+				5B45372419D1DEF100BD80FB /* Embed Frameworks */,
+				5B5DEC891A3207E500C7B1DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IngresseSDKTest;
+			productName = IngresseSDKTest;
+			productReference = 5BF56EE119D1B3C7008B8F68 /* IngresseSDKTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BF56EF519D1B3C7008B8F68 /* IngresseSDKTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF56F0319D1B3C7008B8F68 /* Build configuration list for PBXNativeTarget "IngresseSDKTestTests" */;
+			buildPhases = (
+				5BF56EF219D1B3C7008B8F68 /* Sources */,
+				5BF56EF319D1B3C7008B8F68 /* Frameworks */,
+				5BF56EF419D1B3C7008B8F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF56EF819D1B3C7008B8F68 /* PBXTargetDependency */,
+			);
+			name = IngresseSDKTestTests;
+			productName = IngresseSDKTestTests;
+			productReference = 5BF56EF619D1B3C7008B8F68 /* IngresseSDKTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF56ED919D1B3C7008B8F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Ingresse;
+				TargetAttributes = {
+					5BF56EE019D1B3C7008B8F68 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5BF56EF519D1B3C7008B8F68 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5BF56EE019D1B3C7008B8F68;
+					};
+				};
+			};
+			buildConfigurationList = 5BF56EDC19D1B3C7008B8F68 /* Build configuration list for PBXProject "IngresseSDKTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF56ED819D1B3C7008B8F68;
+			productRefGroup = 5BF56EE219D1B3C7008B8F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF56EE019D1B3C7008B8F68 /* IngresseSDKTest */,
+				5BF56EF519D1B3C7008B8F68 /* IngresseSDKTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF56EDF19D1B3C7008B8F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF56EEC19D1B3C7008B8F68 /* Main.storyboard in Resources */,
+				5BF56EF119D1B3C7008B8F68 /* LaunchScreen.xib in Resources */,
+				5BF56EEE19D1B3C7008B8F68 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF56EF419D1B3C7008B8F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF56F1C19D1BD08008B8F68 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF56EDD19D1B3C7008B8F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF56F0719D1B4D4008B8F68 /* LoginViewController.swift in Sources */,
+				5BF56EE719D1B3C7008B8F68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF56EF219D1B3C7008B8F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF56EFD19D1B3C7008B8F68 /* IngresseSDKTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BF56EF819D1B3C7008B8F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF56EE019D1B3C7008B8F68 /* IngresseSDKTest */;
+			targetProxy = 5BF56EF719D1B3C7008B8F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BF56EEA19D1B3C7008B8F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF56EEB19D1B3C7008B8F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF56EEF19D1B3C7008B8F68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF56EF019D1B3C7008B8F68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF56EFE19D1B3C7008B8F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		5BF56EFF19D1B3C7008B8F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		5BF56F0119D1B3C7008B8F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/Rodrigo/Documents/Github/Ingresse-iOS-SDK/_Archive",
+				);
+				INFOPLIST_FILE = IngresseSDKTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IngresseSDKTest/IngresseSDKTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF56F0219D1B3C7008B8F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/Rodrigo/Documents/Github/Ingresse-iOS-SDK/_Archive",
+				);
+				INFOPLIST_FILE = IngresseSDKTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IngresseSDKTest/IngresseSDKTest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5BF56F0419D1B3C7008B8F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IngresseSDKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngresseSDKTest.app/IngresseSDKTest";
+			};
+			name = Debug;
+		};
+		5BF56F0519D1B3C7008B8F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IngresseSDKTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngresseSDKTest.app/IngresseSDKTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF56EDC19D1B3C7008B8F68 /* Build configuration list for PBXProject "IngresseSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF56EFE19D1B3C7008B8F68 /* Debug */,
+				5BF56EFF19D1B3C7008B8F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF56F0019D1B3C7008B8F68 /* Build configuration list for PBXNativeTarget "IngresseSDKTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF56F0119D1B3C7008B8F68 /* Debug */,
+				5BF56F0219D1B3C7008B8F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF56F0319D1B3C7008B8F68 /* Build configuration list for PBXNativeTarget "IngresseSDKTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF56F0419D1B3C7008B8F68 /* Debug */,
+				5BF56F0519D1B3C7008B8F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF56ED919D1B3C7008B8F68 /* Project object */;
+}
